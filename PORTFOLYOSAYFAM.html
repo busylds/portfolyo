@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Büşra Yoldaş Portfolyo</title>
+    <style>
+        header{
+            width: 1000px;
+            height: 100px;
+            background-color: aliceblue;
+            margin: auto;
+        }
+
+        nav{
+            width: 1000px;
+            height: 50px;
+            background-color: beige;
+            display: flex;
+            margin: auto;
+        }
+
+        main{
+            width: 1000px;
+            height: 600px;
+            background-color: blanchedalmond;
+            display: flex;
+            margin: auto;
+            border: 1px solid black;
+        }
+
+        .sol{
+            width: 25%;
+            height: 100%;
+            background-color: lightpink;
+            color: black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .orta{
+            width: 50%;
+            height: 100%;
+            background-color: lightblue;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .sag{
+            width: 25%;
+            height: 100%;
+            background-color: lightgoldenrodyellow;
+            color: brown;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .resim-kart{
+            width: 200px;
+            height: 350px;
+            background-color: lightcoral;
+            padding: 2px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+
+        .img{
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+
+        .baslik{
+            width: 100%;
+            height: 30%;
+            background-color: lightseagreen;
+        }
+
+        .yazi{
+            width: 100%;
+            height: 20%;
+            background-color: lightblue;
+            color: black;
+        }
+
+        footer{
+            width: 1000px;
+            height: 70px;
+            background-color: brown;
+            margin: auto;
+            text-align: center;
+        }
+
+        a{
+            margin: 20px;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;padding-top: 20px;">PORTFOLYO SAYFAM</h1>
+    </header>
+<main>
+    <div class="sol">
+        <h3>Kişisel Bilgilerim</h3>
+        <img src="Büşrayoldaş.jpeg" class="img">
+        <p><b>Ad Soyad: </b>Büşra YOLDAŞ</p>
+        <p><b>Bölüm: </b>Yönetim Bilişim Sistemleri</p>
+        <p><b>Üniversite: </b>İstanbul Topkapı Üniversitesi</p>
+        <p><b>Mail: </b>monnacrus@gmail.com</p>
+    </div>
+    
+
+        <div class="orta">
+            <h3>Çalışmalarım</h3>
+            <p>Aşağıdaki çalışmalarım favori çalışmalarım dilerseniz github üzerinden diğer çalışmalarımı görüntüleyebilirsiniz</p>
+           <a href="https://github.com/busylds">Github'ım</a>
+            <div style="display: flex;">
+                <div class="resim-kart">
+                    <img src="winx.jfif" class="img">
+                    <a href="file:///C:/Users/ARaBBusRA(otobuss)/Desktop/busrayodldashtml/winxokullar%C4%B1.html">Winx Okulları</a>
+                    <div class="yazi"><p>Tablo ve form kullanarak yaptığım winx sayfası.</p></div>
+                </div>
+
+    
+                <div class="resim-kart">
+                    <img src="Alfeaa.webp" class="img">
+                    <a href="file:///C:/Users/ARaBBusRA(otobuss)/Desktop/busrayodldashtml/Alfeabulutluk%C4%B1z%C4%B1l.html">3'lü kutu</a>
+                    <div class="yazi"><p>Flex yapısını kullanarak yaptığım 3'lü kart.</p></div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="sag">
+            <h3>Yorum</h3>
+            <form>
+                <b>Adınız:</b><br>
+                <input type="text" name="isim" style="width: 100%;"><br><br>
+                
+                <b>Kendimi geliştirmem için vereceğiniz tavsiyeler:</b><br>
+                <textarea style="width: 100%; height: 100px;"></textarea><br><br>
+                
+                <b>Görev:</b><br>
+                <input type="radio" name="c" value="e"> Öğrenci
+                <input type="radio" name="c" value="k"> Öğretmen<br><br>
+                
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+
+
+</main>
+    
+</body>
+</html>
